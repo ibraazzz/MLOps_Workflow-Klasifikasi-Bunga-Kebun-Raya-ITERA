@@ -33,8 +33,8 @@ df2 = pd.read_csv("collected_data/data2.csv")
 df = pd.concat([df1, df2])
 df.to_csv("Dataset Bunga/flowers_dataset.csv", index=False)
 
-
-## 🤖 3. 📈 Training & Eksperimen Model (train_with_mlflow.py)
+---
+## 3. 📈 Training & Eksperimen Model (train_with_mlflow.py)
 
 Skrip ini adalah komponen utama dalam workflow MLOps. Fungsinya:
 
@@ -66,3 +66,5 @@ Setelah container siap :
 
 - Deploy di Render, Heroku, AWS ECS/Fargate
 - Menggunakan render.yaml sebagai konfigurasi deployment otomatis
+
+---
